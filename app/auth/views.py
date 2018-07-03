@@ -5,4 +5,4 @@ from . import auth
 
 @auth.route('/login')
 def login():
-    return render_template('bases.html')
+    return render_template('auth/login.html')
